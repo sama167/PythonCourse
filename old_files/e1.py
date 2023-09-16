@@ -13,5 +13,6 @@ for number in range(1,1000):
     input(number)
 
 print("end")
+print("hihih")
       
       
