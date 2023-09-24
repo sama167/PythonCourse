@@ -24,7 +24,8 @@ for family in data:
     index = cal_eco_index(family)
     name = family[0]
     income = family[4]
-    data_copy.append((name, income, index))
+    size = family[2]
+    data_copy.append((name, income, index, size))
 
 data_copy.sort(key=sort_by_eco_index)
 
@@ -33,5 +34,19 @@ for new_t in data_copy:
 
 print("the poorest family is ", data_copy[0])
 print("the richest family is ", data_copy[-1])
+
+
+buget=1000
+
+for fami in data_copy:
+    size = fami[2] * 50
+    print("------------------------------------")
+    if buget-size >= 0:
+        print(size , " toman to ", fami[0])
+        buget = buget-size
+        print("ramining bugdet", buget)
+    else:
+        print(f"Cannot give {size} to {fami[0]}. Remaining budget is {buget}....")
+        break
 
 
