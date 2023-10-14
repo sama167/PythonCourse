@@ -13,6 +13,9 @@ def discover_gold_min(golds):
 def cosume_water(water_reso, population):
     return water_reso - (population * 0.01 * water_reso)
 
+def field_fire(fields):
+    return fields - (random.uniform(0.1, 0.4) * fields)
+
 nations = [{"name":"Fairy_land" ,"population": 200, "metal_mines": 3, "gold_mines": 10, "water_resource": 50, "agriculture_fields": 120},
            {"name":"Unicorn_land" ,"population": 110, "metal_mines": 3, "gold_mines": 8, "water_resource": 30, "agriculture_fields": 110},
            {"name":"Tatooine" ,"population": 110, "metal_mines": 200, "gold_mines": 12, "water_resource": 25, "agriculture_fields": 40},
@@ -23,7 +26,7 @@ nations = [{"name":"Fairy_land" ,"population": 200, "metal_mines": 3, "gold_mine
            {"name":"Sind" ,"population": 300, "metal_mines": 3, "gold_mines": 1, "water_resource": 55, "agriculture_fields": 100}]
 
 # for each nation, calculate the initial wealth using cal_wealth
-# not remove this line
+# کد خودتون رو اینجا پیاده سازی کنید
 
 time.sleep(1)
 
