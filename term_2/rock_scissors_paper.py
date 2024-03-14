@@ -2,7 +2,7 @@ import random
 
 human_choice = input("Enter your choice (rock, paper, scissors): ")
 
-random_choice = random.choice(["rock", "paper", "scissors"])
+computer_choice = random.choice(["rock", "paper", "scissors"])
 
 
 
