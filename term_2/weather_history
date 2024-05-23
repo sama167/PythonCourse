@@ -1,0 +1,38 @@
+cities_weather_history =[
+  {
+    "city": "Paris", "tempreture_history": [
+      {
+      "year": 1990, "min_tempreture": -10, "max_tempreture": 39
+      },
+      {
+        "year": 1991, "min_tempreture": -5, "max_tempreture": 37
+      },
+      {"year": 1992, "min_tempreture": -2, "max_tempreture": 41},
+      {"year": 1983, "min_tempreture": -10, "max_tempreture": 36},
+      {"year": 1994,"min_temreture": -5, "max_tempreture": 38}
+    ]
+  },
+  {
+    "city": "London", "tempreture_history":[
+      {"year": 1983, "min_tempreture": -10, "max_tempreture": 20},
+      {"year": 1984, "min_tempreture": -5, "max_tempreture": 25},
+      {"year": 1985, "min_tempreture": -2, "max_tempreture": 30},
+      {"year": 1986, "min_tempreture": -10, "max_tempreture": 20},
+      {"year": 1987, "min_tempreture": -5, "max_tempreture": 38, "annual_precipitation": 1038},
+      {"year": 1988, "min_tempreture": -2, "max_tempreture": 30, "annual_precipitation": 937},
+      {"year": 1989, "min_tempreture": -10, "max_tempreture": 20, "annual_precipitation": 836},
+      {"year": 1990, "min_tempreture": -5, "max_tempreture": 36, "annual_precipitation": 1241},
+      {"year" : 1991, "min_tempreture": -2, "max_tempreture": 29, "annual_precipitation": 982}
+    ]
+  },
+  {
+    "city": "Rome", "tempreture_history":[
+      {"year": 1988, "min_tempreture": -18, "max_tempreture": 35, "max_wind_speed": 48},
+      {"year": 1989, "min_tempreture": --5, "max_tempreture": 41, "max_wind_speed": 50},
+      {"year": 1990, "min_tempreture": -4, "max_tempreture": 38,"max_wind_speed": 52},
+      {"year": 1991, "min_tempreture": -9, "max_tempreture": 36, "annual_precipitation": 766, "max_wind_speed": 61},
+      {"year": 1992, "min_tempreture": 2, "max_tempreture": 40,"annual_precipitation": 818, "max_wind_speed": 48},
+      {"year": 1993, "min_tempreture": -7, "max_tempreture": 38,"annual_precipitation": 894, "max_wind_speed": 64}
+    ]
+  }
+]
